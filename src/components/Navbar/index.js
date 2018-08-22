@@ -4,9 +4,9 @@ import './styles.scss';
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light sinDelantal-nav">
         <a className="navbar-brand" href="#">
-          Airbnb Clone
+          Sin Delantal Clone
         </a>
         <button
           className="navbar-toggler"

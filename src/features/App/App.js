@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import 'jquery/dist/jquery.min.js';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
-import Routes from '../../components/Navbar';
+import Routes from '../../Routes';
 
 class App extends Component {
   render() {
