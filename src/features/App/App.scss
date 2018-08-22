@@ -1,1 +1,11 @@
-@import 'bootstrap';
+.center-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: rgba(239, 239, 239, 0.89);
+  padding: 20px;
+}
