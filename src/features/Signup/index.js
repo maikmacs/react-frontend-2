@@ -33,15 +33,15 @@ class Signup extends Component {
     return this.state.password === this.state.password_confirm;
   };
 
-  submitForm = event => {
-    event.preventDefault();
+  submitForm = e => {
+    e.preventDefault();
 
     if (this.checkPassword()) {
       api
         .createUser(this.state)
         .then(resp => {
           console.log(resp.data);
-          this.props.history.push('/');
+          this.props.history.push('/login');
         })
         .catch(err => {
           console.log(err);

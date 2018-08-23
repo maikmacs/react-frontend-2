@@ -11,7 +11,9 @@ const api = axios.create({
 });
 
 const createUser = data => api.post('user/create', data);
+const loginUser = data => api.post('login', data);
 
 export default {
-  createUser
+  createUser,
+  loginUser
 };
